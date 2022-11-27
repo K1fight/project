@@ -5,6 +5,7 @@ public class BlackAndWhite {
     public BlackAndWhite(int[][] pt){
         this.pt = pt;
         this.result = new int[pt.length][pt[0].length];
+
     }
     public int[][] baw(){
         for(int i = 0;i< pt.length;i++){
